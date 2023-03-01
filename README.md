@@ -19,6 +19,7 @@
    - cd backend
    - pip3 install django
    - pip3 install djangorestframework
+   - pip3 install python-dotenv
    - python manage.py migrate
    - python manage.py createsuperuser --username admin --email admin@gmail.com
    - create .env file and add username, password, and django secret key.
